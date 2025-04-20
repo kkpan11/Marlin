@@ -27,6 +27,7 @@
  */
 
 #include "../stepper.h"
+#include <SPI.h>
 
 #if MB(PRINTRBOARD_G2)
   #include HAL_PATH(../.., fastio/G2_PWM.h)
